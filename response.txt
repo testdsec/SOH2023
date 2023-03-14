@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Host: example.com
+Date: Mon, 27 Feb 2023 09:45:38 GMT
+Connection: close
+X-Powered-By: PHP/7.4.21
+Content-Security-Policy: default-src 'self'; object-src 'none'; script-src 'nonce-34d2ae89fe1b49' *.storage.yandexcloud.net
+Access-Control-Allow-Origin: sso.example.com, cdn.example.com, *.website.yandexcloud.net
+Access-Control-Allow-Credentials: true
+Content-type: text/html; charset=UTF-8
+
+<html>
+<head>
+	<title>User Information</title>
+</head>
+<body>
+	<div>
+		Username: advers<br>
+		Password: 123QWEasd<br>
+		Role: user
+	</div>
+	<div>
+	
+		<form method="POST" action="/api/v2/password/update">
+			<input type="text" id="password1"></input><br>
+			<input type="text" id="password2"></input><br>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+</html>
