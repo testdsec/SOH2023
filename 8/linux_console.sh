@@ -1,4 +1,4 @@
-Фрагмент 1
+# Фрагмент 1
  
 sudo cat /etc/sudoers
 Defaults        secure_path="/tmp:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
@@ -17,9 +17,9 @@ read -p "Enter website to check connection: " website
 curl $website
  
  
----------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
  
-Фрагмент 2
+# Фрагмент 2
 
  
 ls -alh /opt
