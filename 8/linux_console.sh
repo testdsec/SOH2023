@@ -2,7 +2,7 @@
  
 sudo cat /etc/sudoers
 Defaults        secure_path="/tmp:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
-CHECKSITE   ALL = NOPASSWD: /opt/run
+CHECKSITE   ALL = NOPASSWD: /opt/run.sh
  
 ls -alh /opt/
 total 20K
